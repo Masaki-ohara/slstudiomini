@@ -52,7 +52,7 @@ public class User {
     public User() {
     }
 
-    public User(Long id, String username, string password, boolean enabled,  Set<Authority> authorities) {
+    public User(Long id, String username, String password, boolean enabled,  Set<Authority> authorities) {
         this.id = id;
         this.username = username;
         this.password = password;
